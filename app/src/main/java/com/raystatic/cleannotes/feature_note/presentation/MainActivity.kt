@@ -22,8 +22,9 @@ import com.raystatic.cleannotes.ui.theme.CleanNotesTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-@ExperimentalAnimationApi
 class MainActivity : ComponentActivity() {
+
+    @ExperimentalAnimationApi
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
